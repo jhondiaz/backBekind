@@ -1,0 +1,6 @@
+@testBekind_HostAddress = http://localhost:5130
+
+GET {{testBekind_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
